@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Area is a modern analytics product landing page with responsive layouts, product previews, benefits, specifications, testimonials, and a clear contact flow.">
+    <meta name="theme-color" content="#485C11">
+    <title>Area - Modern Analytics Product Launch</title>
+    <link rel="icon" href="ico/favicon.svg" type="image/svg+xml">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-style.css">
+</head>
+<body id="top">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <!-- HEADER START -->
+    <header>
+        <div class="container">
+            <span class="line" id="lineElement"></span>
+            <nav aria-label="Main navigation">
+                <div class="nav-bl">
+                    <a class="brand" href="#top" aria-label="Area home">Area</a>
+
+                    <a href="#contact" id="navLink">
+                        Learn More
+                        <svg width="8" height="8" viewBox="0 0 6 7" fill="none">
+                            <path d="M5.01037 4.9934V1.05184L5.64939 1.09142L0.735155 6.01131L0 5.27615L4.91423 0.361923L4.96513 1.00094H1.0066V0L6 0.0113101V4.9934H5.01037Z" fill="white"/>
+                        </svg>
+                    </a>
+
+                    <button class="hamburger" id="navHamburgerMenu" type="button" aria-label="Open navigation menu" aria-controls="navMenu" aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </button>
+                </div>
+
+                <ul id="navMenu">
+                    <li>
+                        <a href="#benefits">
+                            Benefits
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#specifications">
+                            Specifications
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#how-to">
+                            How-to
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header-cont">
+                <h1>Browse everything.</h1>
+                <div class="l-one">
+                    <img src="img/laptop-screen.png" width="870" height="608" alt="Area analytics dashboard shown on a laptop screen" fetchpriority="high">
+                    <img src="img/mobile-screen.png" width="249" height="522" alt="Area analytics dashboard shown on a mobile screen" fetchpriority="high">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN START -->
+    <main id="main-content">
+        <div class="container">
+            <!-- SECTION LOGO CLOUD START -->
+            <section class="logo-cloud mutual fade-in" id="trusted-by">
+                <div class="l-one">
+                    <span>Trusted by:</span>
+                </div>
+
+                <div class="l-two">
+                    <span><img src="svg/Logo-one.svg" alt="Client logo one" loading="lazy" decoding="async"></span>
+                    <span><img src="svg/Logo-two.svg" alt="Client logo two" loading="lazy" decoding="async"></span>
+                    <span><img src="svg/Logo-three.svg" alt="Client logo three" loading="lazy" decoding="async"></span>
+                    <span><img src="svg/Logo-four.svg" alt="Client logo four" loading="lazy" decoding="async"></span>
+                    <span><img src="svg/Logo-five.svg" alt="Client logo five" loading="lazy" decoding="async"></span>
+                    <span><img src="svg/Logo-six.svg" alt="Client logo six" loading="lazy" decoding="async"></span>
+                </div>
+            </section>
+            <!-- SECTION LOGO CLOUD END -->
+
+            <!-- SECTION BENEFITS START -->
+            <section class="benefits mutual fade-in" id="benefits">
+                <div class="headline-icons">
+                    <div class="l-one">
+                        <span>Benefits</span>
+                        <h2>We’ve cracked the code.</h2>
+                        <p>
+                            Area provides real insights, without the data overload.
+                        </p>
+                    </div>
+
+                    <div class="l-two">
+                        <div class="bl-one">
+                            <span>
+                                <svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.70203 2.3332C3.7887 3.2532 3.7887 4.7332 4.70203 5.64654L10.362 11.2999C10.7487 11.6932 10.7487 12.3332 10.362 12.7132C9.9687 13.1065 9.33536 13.1065 8.94203 12.7132L6.11537 9.88654L6.82203 9.17987L4.4687 6.81987L4.2287 7.05987L3.2887 6.1132C3.0287 5.8532 2.6087 5.8532 2.33536 6.1132L1.40203 7.05987C1.14203 7.3332 1.14203 7.73987 1.40203 7.99987L2.33536 8.93987L2.1087 9.17987L4.4687 11.5332L5.17536 10.8265L8.00203 13.6665C8.91536 14.5665 10.3887 14.5665 11.302 13.6665C12.2154 12.7465 12.2154 11.2665 11.302 10.3599L5.64203 4.69987C5.25536 4.30654 5.25536 3.66654 5.64203 3.28654C6.03536 2.8932 6.6687 2.8932 7.06203 3.28654L9.8887 6.1132L9.18203 6.81987L11.5354 9.17987L11.7754 8.93987L12.7154 9.88654C12.9754 10.1465 13.402 10.1465 13.6687 9.88654L14.602 8.93987C14.862 8.66654 14.862 8.25987 14.602 7.99987L13.6687 7.05987L13.8954 6.81987L11.5354 4.46654L10.8287 5.1732L8.00203 2.3332C7.0887 1.4332 5.61537 1.4332 4.70203 2.3332ZM1.87536 7.52654L2.81536 6.58654L3.76203 7.52654L2.81536 8.4732M12.242 8.4732L13.1887 7.52654L14.1287 8.4732L13.1887 9.4132L12.242 8.4732Z" fill="black"/>
+                                </svg>
+                            </span>
+                            <div>
+                                <span>Amplify Insights</span>
+                                <p>
+                                    Unlock data-driven decisions with comprehensive analytics, revealing key opportunities for strategic regional growth.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bl-two">
+                            <span>
+                                <svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.9334 11.5934C11.76 11.06 11.26 10.6667 10.6667 10.6667H10V8.66671C10 8.4899 9.9298 8.32033 9.80478 8.1953C9.67975 8.07028 9.51018 8.00004 9.33337 8.00004H5.33337V6.66671H6.66671C6.84352 6.66671 7.01309 6.59647 7.13811 6.47144C7.26314 6.34642 7.33337 6.17685 7.33337 6.00004V4.66671H8.66671C9.02033 4.66671 9.35947 4.52623 9.60952 4.27618C9.85956 4.02613 10 3.687 10 3.33337V3.06004C11.9534 3.84671 13.3334 5.76004 13.3334 8.00004C13.3334 9.38671 12.8 10.6467 11.9334 11.5934ZM7.33337 13.2867C4.70004 12.96 2.66671 10.72 2.66671 8.00004C2.66671 7.58671 2.72004 7.18671 2.80671 6.80671L6.00004 10V10.6667C6.00004 11.0203 6.14052 11.3595 6.39056 11.6095C6.64061 11.8596 6.97975 12 7.33337 12M8.00004 1.33337C7.12456 1.33337 6.25765 1.50581 5.44882 1.84084C4.63998 2.17588 3.90505 2.66694 3.286 3.286C2.03575 4.53624 1.33337 6.23193 1.33337 8.00004C1.33337 9.76815 2.03575 11.4638 3.286 12.7141C3.90505 13.3331 4.63998 13.8242 5.44882 14.1592C6.25765 14.4943 7.12456 14.6667 8.00004 14.6667C9.76815 14.6667 11.4638 13.9643 12.7141 12.7141C13.9643 11.4638 14.6667 9.76815 14.6667 8.00004C14.6667 7.12456 14.4943 6.25765 14.1592 5.44882C13.8242 4.63998 13.3331 3.90505 12.7141 3.286C12.095 2.66694 11.3601 2.17588 10.5513 1.84084C9.74243 1.50581 8.87552 1.33337 8.00004 1.33337Z" fill="black"/>
+                                </svg>
+                            </span>
+                            <div>
+                                <span>Control Your Global Presence</span>
+                                <p>
+                                    Manage and track satellite offices, ensuring consistent performance and streamlined operations everywhere.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bl-three">
+                            <span>
+                                <svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.99996 3.33337C6.7072 3.33337 7.38548 3.61433 7.88558 4.11442C8.38567 4.61452 8.66663 5.2928 8.66663 6.00004C8.66663 6.70728 8.38567 7.38556 7.88558 7.88566C7.38548 8.38576 6.7072 8.66671 5.99996 8.66671C5.29272 8.66671 4.61444 8.38576 4.11434 7.88566C3.61424 7.38556 3.33329 6.70728 3.33329 6.00004C3.33329 5.2928 3.61424 4.61452 4.11434 4.11442C4.61444 3.61433 5.29272 3.33337 5.99996 3.33337ZM5.99996 10C7.77996 10 11.3333 10.8934 11.3333 12.6667V14H0.666626V12.6667C0.666626 10.8934 4.21996 10 5.99996 10ZM11.1733 3.57337C12.52 5.04004 12.52 7.07337 11.1733 8.42004L10.0533 7.29337C10.6133 6.50671 10.6133 5.48671 10.0533 4.70004L11.1733 3.57337ZM13.38 1.33337C16 4.03337 15.98 8.07337 13.38 10.6667L12.2933 9.58004C14.14 7.46004 14.14 4.43337 12.2933 2.42004L13.38 1.33337Z" fill="black"/>
+                                </svg>
+                            </span>
+                            <div>
+                                <span>Remove Language Barriers</span>
+                                <p>
+                                    Adapt to diverse markets with built-in localization for clear communication and enhanced user experience.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bl-four">
+                            <span>
+                                <svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.99996 9.33333L2.33329 9.38L5.37996 6.33333C5.25996 5.9 5.37329 5.40667 5.72663 5.06C6.24663 4.53333 7.08663 4.53333 7.60663 5.06C7.95996 5.40667 8.07329 5.9 7.95329 6.33333L9.66663 8.04667L9.99996 8C10.12 8 10.2333 8 10.3333 8.04667L12.7133 5.66667C12.6666 5.56667 12.6666 5.45333 12.6666 5.33333C12.6666 4.97971 12.8071 4.64057 13.0572 4.39052C13.3072 4.14048 13.6463 4 14 4C14.3536 4 14.6927 4.14048 14.9428 4.39052C15.1928 4.64057 15.3333 4.97971 15.3333 5.33333C15.3333 5.68696 15.1928 6.02609 14.9428 6.27614C14.6927 6.52619 14.3536 6.66667 14 6.66667C13.88 6.66667 13.7666 6.66667 13.6666 6.62L11.2866 9C11.3333 9.1 11.3333 9.21333 11.3333 9.33333C11.3333 9.68696 11.1928 10.0261 10.9428 10.2761C10.6927 10.5262 10.3536 10.6667 9.99996 10.6667C9.64634 10.6667 9.3072 10.5262 9.05715 10.2761C8.8071 10.0261 8.66663 9.68696 8.66663 9.33333L8.71329 9L6.99996 7.28667C6.78663 7.33333 6.54663 7.33333 6.33329 7.28667L3.28663 10.3333L3.33329 10.6667C3.33329 11.0203 3.19282 11.3594 2.94277 11.6095C2.69272 11.8595 2.35358 12 1.99996 12C1.64634 12 1.3072 11.8595 1.05715 11.6095C0.807102 11.3594 0.666626 11.0203 0.666626 10.6667C0.666626 10.313 0.807102 9.97391 1.05715 9.72386C1.3072 9.47381 1.64634 9.33333 1.99996 9.33333Z" fill="black"/>
+                                </svg>
+                            </span>
+                            <div>
+                                <span>Visualize Growth</span>
+                                <p>
+                                    Generate precise, visually compelling reports that illustrate your growth trajectories across all regions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="benefits-hero-img">
+                    <img src="img/Benefits section.jpg" width="1200" height="620" alt="Team reviewing regional analytics on a shared dashboard" loading="lazy" decoding="async">
+                </div>
+            </section>
+            <!-- SECTION BENEFITS END -->
+
+            <!-- SECTION FEATURES CAROUSEL START -->
+            <section class="feature-carousel mutual fade-in" id="features">
+                <div class="bl-one">
+                    <h2>See the Big Picture</h2>
+
+                    <p>
+                        Area turns your data into clear, vibrant visuals that show you exactly what's happening in each region.
+                    </p>
+
+                    <ul>
+                        <li>
+                            <span>01</span>Spot Trends in Seconds: No more digging through numbers. 
+                        </li>
+
+                        <li>
+                            <span>02</span>Compare Regions Easily: See what changes fast and where.
+                        </li>
+
+                        <li>
+                            <span>03</span>Find Key Insights Fast: Turn raw data into clear actions.
+                        </li>
+
+                        <li>
+                            <span>04</span>Share Reports Instantly: Keep every team aligned around one clear view.
+                        </li>
+                    </ul>
+
+                    <a href="#specifications">Discover More</a>
+                </div>
+
+                <div class="bl-two">
+                    <img src="img/feature-carousel.png" width="1220" height="1220" alt="Regional growth charts and metrics in the Area interface" loading="lazy" decoding="async">
+                </div>
+            </section>
+            <!-- SECTION FEATURES CAROUSEL END -->
+
+            <!-- SECTION SPECIFICATION TABLE START -->
+            <section class="specification-table mutual fade-in" id="specifications">
+                <div class="l-one">
+                    <div class="txt-content">
+                        <span>Specs</span>
+
+                        <h2>Why Choose Area?</h2>
+
+                        <p>
+                            You need a solution that keeps up. That's why we developed Area. A developer-friendly approach to streamline your business.
+                        </p>
+
+                        <a href="#how-to">Discover More</a>
+                    </div>
+                </div>
+
+                <div class="l-two" tabindex="0" aria-label="Area feature comparison">
+                    <div class="bl-one">
+                        <ul>
+                            <li>Area</li>
+                            <li>
+                                <span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14 4.66668L6.00004 12.6667L2.33337 9.00002L3.27337 8.06002L6.00004 10.78L13.06 3.72668L14 4.66668Z" fill="black"/>
+                                    </svg>
+                                </span>
+                                Real-time dashboards
+                            </li>
+                            <li>
+                                <span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14 4.66668L6.00004 12.6667L2.33337 9.00002L3.27337 8.06002L6.00004 10.78L13.06 3.72668L14 4.66668Z" fill="black"/>
+                                    </svg>
+                                </span>
+                                Advanced AI insights
+                            </li>
+                            <li>
+                                <span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14 4.66668L6.00004 12.6667L2.33337 9.00002L3.27337 8.06002L6.00004 10.78L13.06 3.72668L14 4.66668Z" fill="black"/>
+                                    </svg>
+                                </span>
+                                Seamless integrations
+                            </li>
+                            <li>
+                                <span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14 4.66668L6.00004 12.6667L2.33337 9.00002L3.27337 8.06002L6.00004 10.78L13.06 3.72668L14 4.66668Z" fill="black"/>
+                                    </svg>
+                                </span>
+                                No-code report builder
+                            </li>
+                            <li>
+                                <span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14 4.66668L6.00004 12.6667L2.33337 9.00002L3.27337 8.06002L6.00004 10.78L13.06 3.72668L14 4.66668Z" fill="black"/>
+                                    </svg>
+                                </span>
+                                Enterprise-grade speed
+                            </li>
+                            <li>
+                                <span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14 4.66668L6.00004 12.6667L2.33337 9.00002L3.27337 8.06002L6.00004 10.78L13.06 3.72668L14 4.66668Z" fill="black"/>
+                                    </svg>
+                                </span>
+                                Full UTF-8 support
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bl-two">
+                        <ul>
+                            <li>WebSurge</li>
+                            <li>
+                                <span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14 4.66668L6.00004 12.6667L2.33337 9.00002L3.27337 8.06002L6.00004 10.78L13.06 3.72668L14 4.66668Z" fill="black"/>
+                                    </svg>
+                                </span>
+                                Fast dashboards
+                            </li>
+                            <li>
+                                <span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14 4.66668L6.00004 12.6667L2.33337 9.00002L3.27337 8.06002L6.00004 10.78L13.06 3.72668L14 4.66668Z" fill="black"/>
+                                    </svg>
+                                </span>
+                                Basic AI recommendations
+                            </li>
+                            <li>
+                                <span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14 4.66668L6.00004 12.6667L2.33337 9.00002L3.27337 8.06002L6.00004 10.78L13.06 3.72668L14 4.66668Z" fill="black"/>
+                                    </svg>
+                                </span>
+                                Limited integrations
+                            </li>
+                            <li>
+                                <span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.97337 8.00004L12.6667 11.6934V12.6667H11.6934L8.00004 8.97337L4.30671 12.6667H3.33337V11.6934L7.02671 8.00004L3.33337 4.30671V3.33337H4.30671L8.00004 7.02671L11.6934 3.33337H12.6667V4.30671L8.97337 8.00004Z" fill="black"/>
+                                    </svg>
+                                </span>
+                                Basic AI insights
+                            </li>
+                            <li>
+                                <span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14 4.66668L6.00004 12.6667L2.33337 9.00002L3.27337 8.06002L6.00004 10.78L13.06 3.72668L14 4.66668Z" fill="black"/>
+                                    </svg>
+                                </span>
+                                Average refresh rates
+                            </li>
+                            <li>
+                                <span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.97337 8.00004L12.6667 11.6934V12.6667H11.6934L8.00004 8.97337L4.30671 12.6667H3.33337V11.6934L7.02671 8.00004L3.33337 4.30671V3.33337H4.30671L8.00004 7.02671L11.6934 3.33337H12.6667V4.30671L8.97337 8.00004Z" fill="black"/>
+                                    </svg>
+                                </span>
+                                Potential display errors
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bl-three">
+                        <ul>
+                            <li>DataVista</li>
+                            <li>
+                                <span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.97337 8.00004L12.6667 11.6934V12.6667H11.6934L8.00004 8.97337L4.30671 12.6667H3.33337V11.6934L7.02671 8.00004L3.33337 4.30671V3.33337H4.30671L8.00004 7.02671L11.6934 3.33337H12.6667V4.30671L8.97337 8.00004Z" fill="black"/>
+                                    </svg>
+                                </span>
+                                Moderate refresh rates
+                            </li>
+                            <li>
+                                <span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.97337 8.00004L12.6667 11.6934V12.6667H11.6934L8.00004 8.97337L4.30671 12.6667H3.33337V11.6934L7.02671 8.00004L3.33337 4.30671V3.33337H4.30671L8.00004 7.02671L11.6934 3.33337H12.6667V4.30671L8.97337 8.00004Z" fill="black"/>
+                                    </svg>
+                                </span>
+                                Export-heavy workflows
+                            </li>
+                            <li>
+                                <span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.97337 8.00004L12.6667 11.6934V12.6667H11.6934L8.00004 8.97337L4.30671 12.6667H3.33337V11.6934L7.02671 8.00004L3.33337 4.30671V3.33337H4.30671L8.00004 7.02671L11.6934 3.33337H12.6667V4.30671L8.97337 8.00004Z" fill="black"/>
+                                    </svg>
+                                </span>
+                                Steep learning curve
+                            </li>
+                            <li>
+                                <span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.97337 8.00004L12.6667 11.6934V12.6667H11.6934L8.00004 8.97337L4.30671 12.6667H3.33337V11.6934L7.02671 8.00004L3.33337 4.30671V3.33337H4.30671L8.00004 7.02671L11.6934 3.33337H12.6667V4.30671L8.97337 8.00004Z" fill="black"/>
+                                    </svg>
+                                </span>
+                                No AI assistance
+                            </li>
+                            <li>
+                                <span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.97337 8.00004L12.6667 11.6934V12.6667H11.6934L8.00004 8.97337L4.30671 12.6667H3.33337V11.6934L7.02671 8.00004L3.33337 4.30671V3.33337H4.30671L8.00004 7.02671L11.6934 3.33337H12.6667V4.30671L8.97337 8.00004Z" fill="black"/>
+                                    </svg>
+                                </span>
+                                Delayed refreshes
+                            </li>
+                            <li>
+                                <span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.97337 8.00004L12.6667 11.6934V12.6667H11.6934L8.00004 8.97337L4.30671 12.6667H3.33337V11.6934L7.02671 8.00004L3.33337 4.30671V3.33337H4.30671L8.00004 7.02671L11.6934 3.33337H12.6667V4.30671L8.97337 8.00004Z" fill="black"/>
+                                    </svg>
+                                </span>
+                                Partial UTF-8 support
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- SECTION SPECIFICATION TABLE END -->
+
+            <!-- SECTION TESTIMONIAL START --> 
+            <section class="testimonial mutual fade-in">
+                <div class="bl-one">
+                    <img src="img/Testimonial section.jpg" width="720" height="720" alt="Customer portrait for the Area testimonial" loading="lazy" decoding="async">
+                </div>
+
+                <div class="bl-two">
+                    <div class="quote">
+                        <p>
+                            "I was skeptical, but Area has completely transformed the way I manage my business. The data visualizations are so clear and intuitive, and the platform is so easy to use. I can't imagine running my company without it."
+                        </p>
+
+                        <div>
+                            <span>John Smith</span>
+                            <span>Head of Data</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- SECTION TESTIMONIAL END -->
+
+            <!-- SECTION HOW IT WORKS START -->
+            <section class="howitworks mutual fade-in" id="how-to">
+                <div class="l-one">
+                    <h2>Map Your Success</h2>
+                    <a href="#contact">Discover More</a>
+                </div>
+
+                <div class="l-two" tabindex="0" aria-label="Three steps to launch Area">
+                    <div class="bl-one">
+                        <h2>01</h2>
+                        <div>
+                            <span>Get Started</span>
+                            <p>
+                                With our intuitive setup, you're up and running in minutes.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bl-two">
+                        <h2>02</h2>
+                        <div>
+                            <span>Customize and Configure</span>
+                            <p>
+                                Adapt Area to your specific requirements and preferences.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bl-three">
+                        <h2>03</h2>
+                        <div>
+                            <span>Grow Your Business</span>
+                            <p>
+                                Make informed decisions to exceed your goals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- SECTION HOW IT WORKS END -->
+
+            <!-- SECTION HERO IMAGE START -->
+            <section class="heroimage mutual fade-in" id="product-preview">
+                <div class="wrap-img">
+                    <img src="img/Hero-image-large.webp" width="1200" height="665" alt="Large preview of the Area product analytics workspace" loading="lazy" decoding="async">
+                </div>
+            </section>
+            <!-- SECTION HERO IMAGE END -->
+
+            <!-- SECTION CENTERED CTA END -->
+            <section class="centerdcta mutual fade-in" id="contact">
+                <div class="bl-one">
+                    <h2>Connect with us</h2>
+                    <p>
+                        Schedule a quick call to learn how Area can turn your regional data into a powerful advantage.
+                    </p>
+                    <a href="mailto:hello@area.example">
+                        Book a Demo
+                        <svg width="8" height="8" viewBox="0 0 6 7" fill="none">
+                            <path d="M5.01037 4.9934V1.05184L5.64939 1.09142L0.735155 6.01131L0 5.27615L4.91423 0.361923L4.96513 1.00094H1.0066V0L6 0.0113101V4.9934H5.01037Z" fill="white"/>
+                        </svg>
+                    </a>
+                </div>
+            </section>
+            <!-- SECTION CENTERED CTA START -->
+        </div>
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer>
+        <div class="container">
+            <div class="footer-content mutual fade-in">
+                <div class="l-one">
+                    <a href="#benefits">Benefits</a>
+                    <a href="#specifications">Specifications</a>
+                    <a href="#how-to">How-to</a>
+                </div>
+
+                <div class="l-two">
+                    <span>
+                        <svg width="32" height="70" viewBox="0 0 32 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.3379 21.5869L31.751 32.6748L27.9258 35.9121L22.3379 29.3125V45H24.8379V70H19.8379V45H17.3379V15H22.3379V21.5869ZM12.4248 44.999L7.83789 69.999H2.75L7.33789 44.999H12.4248ZM4.6748 35.8877L0 34.1123L7.22461 15H12.5752L4.6748 35.8877ZM17.3389 9.9502H12.3389V0H17.3389V9.9502Z" fill="black"/>
+                        </svg>
+                    </span>
+
+                    <div>
+                        <span>&copy; Area.</span>
+                        <span id="footerYear">2026</span>
+                        <span>All Rights Reserved</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script src="script.js"></script>
+</body>
+</html>
